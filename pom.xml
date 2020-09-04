@@ -11,7 +11,7 @@
           </repository>
           <repository>
                <id>central</id>
-               <url>https//repo1.maven.org/maven2/</url>
+               <url>https://repo1.maven.org/maven2/</url>
           </repository>
      </repositories>
      <dependencies>
@@ -20,7 +20,18 @@
                <artifactId>spigot-api</artifactId>
                <version>1.16.2-R0.1-SNAPSHOT</version>
                <type>jar</type>
-               <scope>provided</scope>
+          </dependency>
+          <dependency>
+               <groupId>org.javacord</groupId>
+               <artifactId>javacord</artifactId>
+               <version>3.0.6</version>
+               <type>pom</type>
+          </dependency>
+          <dependency>
+               <groupId>redis.clients</groupId>
+               <artifactId>jedis</artifactId>
+               <version>3.2.0</version>
+               <type>jar</type>
           </dependency>
       </dependencies>
 </project>
