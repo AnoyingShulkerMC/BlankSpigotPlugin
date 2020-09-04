@@ -1,0 +1,5 @@
+name: BlankPlugin
+author: insertauthorhere
+main: io.main
+version: 0.0.0
+api-version: 1.16
